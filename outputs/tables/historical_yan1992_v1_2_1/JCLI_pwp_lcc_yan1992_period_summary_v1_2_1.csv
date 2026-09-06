@@ -1,0 +1,11 @@
+period,start_year,end_year,definition,definition_description,n_days,mean_daily_area_km2,median_daily_area_km2,mean_daily_mean_sst_c,area_time_weighted_mean_sst_c,mean_centroid_distance_km,mean_lcc_area_outside_yan_box_fraction,mean_yan_area_outside_lcc_fraction,mean_area_jaccard,mean_lcc_minus_yan_area_pct_of_yan,mean_operator_sensitivity_area_km2,mean_operator_sensitivity_sst_c
+Yan historical interval 1982-1991,1982,1991,canonical,Pacific-mask canonical SST >= 28C,3652,32033602.576,32148327.6057,28.9122068932,28.9181518544,,,,,,,
+Yan historical interval 1982-1991,1982,1991,lcc,Largest 8-neighbor component of Pacific-mask SST >= 28C,3652,28890349.8965,28614800.8128,28.9430170164,28.9489277592,,,,,,,
+Yan historical interval 1982-1991,1982,1991,yan_gt28,"Yan-style fixed box SST > 28C; 20S-20N, 120E-150W",3652,22611098.7285,22646684.7004,28.9605787587,28.9674331601,,,,,,,
+Yan historical interval 1982-1991,1982,1991,yan_ge28_sensitivity,Yan-style fixed box SST >= 28C sensitivity,3652,22725805.5394,22759124.2215,28.9557329235,28.9625501133,,,,,,,
+Yan historical interval 1982-1991,1982,1991,LCC_MINUS_YAN_GT28,Direct daily comparison: LCC minus historical Yan-style fixed-domain definition,3652,6279251.16794,5562796.1144,-0.0175617422828,,658.244117371,0.223014035715,0.0298806554889,0.754214029077,27.7706591941,114706.810917,-0.00484583519691
+Complete-year climate interval 1982-2025,1982,2025,canonical,Pacific-mask canonical SST >= 28C,16071,37418625.2986,37208382.5307,29.0376915494,29.0563920787,,,,,,,
+Complete-year climate interval 1982-2025,1982,2025,lcc,Largest 8-neighbor component of Pacific-mask SST >= 28C,16071,34682798.942,33696040.9846,29.0659198237,29.086223952,,,,,,,
+Complete-year climate interval 1982-2025,1982,2025,yan_gt28,"Yan-style fixed box SST > 28C; 20S-20N, 120E-150W",16071,26003717.0013,26053082.0567,29.1172509041,29.1377869303,,,,,,,
+Complete-year climate interval 1982-2025,1982,2025,yan_ge28_sensitivity,Yan-style fixed box SST >= 28C sensitivity,16071,26101273.921,26151878.9405,29.1130973634,29.133534303,,,,,,,
+Complete-year climate interval 1982-2025,1982,2025,LCC_MINUS_YAN_GT28,Direct daily comparison: LCC minus historical Yan-style fixed-domain definition,16071,8679081.9407,7246651.3019,-0.0513310803674,,673.973299474,0.242680979231,0.0159801034292,0.744779864204,33.3763128566,97556.9196764,-0.0041535406699

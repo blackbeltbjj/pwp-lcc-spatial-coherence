@@ -1,0 +1,15 @@
+PWP-LCC DISCONNECTED-OCCURRENCE DIAGNOSTIC
+JCLI01 version: 1.1.0
+Generated: 2026-09-05T06:24:47.487121+00:00
+
+DEFINITION
+Detached occurrence at a cell is the canonical occurrence count minus the LCC occurrence count, divided by the number of valid SST days.
+The area-time fraction is detached warm cell-area-days divided by all canonical warm cell-area-days at the same threshold.
+Cell areas are exact spherical grid-cell areas and all fields are restricted to pacific_mask_oisst.npy.
+No smoothing, interpolation, morphology, or component-size filter is applied.
+
+SUMMARY
+ threshold_c  n_common_days  valid_grid_cells  area_weighted_mean_detached_occurrence_pct  detached_area_time_fraction_of_canonical_pct  maximum_detached_occurrence_pct  maximum_latitude_deg_n  maximum_longitude_deg_e  ocean_area_detached_occurrence_ge_1pct_km2  grid_cells_detached_occurrence_ge_1pct  ocean_area_detached_occurrence_ge_5pct_km2  grid_cells_detached_occurrence_ge_5pct  ocean_area_detached_occurrence_ge_10pct_km2  grid_cells_detached_occurrence_ge_10pct  ocean_area_detached_occurrence_ge_25pct_km2  grid_cells_detached_occurrence_ge_25pct  ocean_area_detached_occurrence_ge_50pct_km2  grid_cells_detached_occurrence_ge_50pct
+        28.0          16403            312342                                    1.439958                                      7.262824                        74.401024                  14.875                  260.625                                2.876581e+07                                   37817                                1.008131e+07                                   13284                                 6.442348e+06                                     8513                                 2.767646e+06                                     3668                                882294.114516                                     1175
+        28.5          16403            312342                                    1.631274                                     11.007426                        82.167896                  15.125                  260.875                                4.494208e+07                                   59380                                1.406773e+07                                   18525                                 6.520996e+06                                     8626                                 2.367386e+06                                     3145                                756662.781409                                     1009
+        29.0          16403            312342                                    1.872333                                     19.094602                        69.767725                  15.125                  260.625                                5.608735e+07                                   74207                                1.810382e+07                                   23828                                 8.913105e+06                                    11761                                 1.693579e+06                                     2249                                360380.903851                                      482

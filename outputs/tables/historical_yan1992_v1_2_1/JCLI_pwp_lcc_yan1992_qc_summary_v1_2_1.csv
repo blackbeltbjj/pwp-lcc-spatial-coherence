@@ -1,0 +1,6 @@
+test,value,tolerance,pass
+daily_record_complete,16403,16403,True
+lcc_never_exceeds_canonical,-4545.1911,0.0001,True
+yan_gt28_never_exceeds_yan_ge28,-20463.0473,0.0001,True
+canonical_area_vs_existing_authority,0.00500000268221,0.0105781976503,True
+lcc_area_vs_existing_authority,0.00500000268221,0.0105780755537,True

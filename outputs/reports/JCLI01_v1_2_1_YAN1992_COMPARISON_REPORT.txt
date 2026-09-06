@@ -1,0 +1,73 @@
+JCLI01 PWP-LCC HISTORICAL DEFINITION COMPARISON
+Version: 1.2.1
+Generated UTC: 2026-09-06T02:08:58.050838+00:00
+
+HISTORICAL DEFINITION
+Yan et al. (1993) explicitly state that the Yan et al. (1992) WPWP was
+defined as SST higher than 28C inside 120E-150W and 20S-20N.
+Primary reconstruction therefore uses SST > 28C in that fixed box.
+An >=28C operator sensitivity is also reported.
+
+PRESENT-DAY TOPOLOGICAL DEFINITION
+PWP-LCC = largest 8-neighbor connected component of SST >= 28C
+inside the validated Pacific mask, ranked by exact spherical area.
+
+RECORD
+1981-09-01 to 2026-07-29 | N=16,403
+Complete-year inference: 1982-2025
+Historical Yan comparison: 1982-1991
+
+QC
+                                test       value    tolerance  pass
+               daily_record_complete  16403.0000 16403.000000  True
+         lcc_never_exceeds_canonical  -4545.1911     0.000100  True
+     yan_gt28_never_exceeds_yan_ge28 -20463.0473     0.000100  True
+canonical_area_vs_existing_authority      0.0050     0.010578  True
+      lcc_area_vs_existing_authority      0.0050     0.010578  True
+
+PERIOD SUMMARY
+                                  period  start_year  end_year           definition                                                          definition_description  n_days  mean_daily_area_km2  median_daily_area_km2  mean_daily_mean_sst_c  area_time_weighted_mean_sst_c  mean_centroid_distance_km  mean_lcc_area_outside_yan_box_fraction  mean_yan_area_outside_lcc_fraction  mean_area_jaccard  mean_lcc_minus_yan_area_pct_of_yan  mean_operator_sensitivity_area_km2  mean_operator_sensitivity_sst_c
+       Yan historical interval 1982-1991        1982      1991            canonical                                               Pacific-mask canonical SST >= 28C    3652         3.203360e+07           3.214833e+07              28.912207                      28.918152                        NaN                                     NaN                                 NaN                NaN                                 NaN                                 NaN                              NaN
+       Yan historical interval 1982-1991        1982      1991                  lcc                         Largest 8-neighbor component of Pacific-mask SST >= 28C    3652         2.889035e+07           2.861480e+07              28.943017                      28.948928                        NaN                                     NaN                                 NaN                NaN                                 NaN                                 NaN                              NaN
+       Yan historical interval 1982-1991        1982      1991             yan_gt28                               Yan-style fixed box SST > 28C; 20S-20N, 120E-150W    3652         2.261110e+07           2.264668e+07              28.960579                      28.967433                        NaN                                     NaN                                 NaN                NaN                                 NaN                                 NaN                              NaN
+       Yan historical interval 1982-1991        1982      1991 yan_ge28_sensitivity                                      Yan-style fixed box SST >= 28C sensitivity    3652         2.272581e+07           2.275912e+07              28.955733                      28.962550                        NaN                                     NaN                                 NaN                NaN                                 NaN                                 NaN                              NaN
+       Yan historical interval 1982-1991        1982      1991   LCC_MINUS_YAN_GT28 Direct daily comparison: LCC minus historical Yan-style fixed-domain definition    3652         6.279251e+06           5.562796e+06              -0.017562                            NaN                 658.244117                                0.223014                            0.029881           0.754214                           27.770659                       114706.810917                        -0.004846
+Complete-year climate interval 1982-2025        1982      2025            canonical                                               Pacific-mask canonical SST >= 28C   16071         3.741863e+07           3.720838e+07              29.037692                      29.056392                        NaN                                     NaN                                 NaN                NaN                                 NaN                                 NaN                              NaN
+Complete-year climate interval 1982-2025        1982      2025                  lcc                         Largest 8-neighbor component of Pacific-mask SST >= 28C   16071         3.468280e+07           3.369604e+07              29.065920                      29.086224                        NaN                                     NaN                                 NaN                NaN                                 NaN                                 NaN                              NaN
+Complete-year climate interval 1982-2025        1982      2025             yan_gt28                               Yan-style fixed box SST > 28C; 20S-20N, 120E-150W   16071         2.600372e+07           2.605308e+07              29.117251                      29.137787                        NaN                                     NaN                                 NaN                NaN                                 NaN                                 NaN                              NaN
+Complete-year climate interval 1982-2025        1982      2025 yan_ge28_sensitivity                                      Yan-style fixed box SST >= 28C sensitivity   16071         2.610127e+07           2.615188e+07              29.113097                      29.133534                        NaN                                     NaN                                 NaN                NaN                                 NaN                                 NaN                              NaN
+Complete-year climate interval 1982-2025        1982      2025   LCC_MINUS_YAN_GT28 Direct daily comparison: LCC minus historical Yan-style fixed-domain definition   16071         8.679082e+06           7.246651e+06              -0.051331                            NaN                 673.973299                                0.242681                            0.015980           0.744780                           33.376313                        97556.919676                        -0.004154
+
+TREND SUMMARY
+          definition                        metric  n_years  theil_sen_slope_per_decade  ci95_low_per_decade  ci95_high_per_decade     intercept
+           canonical           mean_daily_area_km2       44                3.481570e+06         2.636865e+06          4.297903e+06 -6.597978e+08
+           canonical area_time_weighted_mean_sst_c       44                8.443694e-02         6.867533e-02          1.011132e-01  1.210927e+01
+                 lcc           mean_daily_area_km2       44                3.764479e+06         2.711765e+06          4.667532e+06 -7.198223e+08
+                 lcc area_time_weighted_mean_sst_c       44                8.122377e-02         6.677369e-02          9.940510e-02  1.278099e+01
+yan_ge28_sensitivity           mean_daily_area_km2       44                2.073867e+06         1.779761e+06          2.374833e+06 -3.893464e+08
+yan_ge28_sensitivity area_time_weighted_mean_sst_c       44                1.071377e-01         8.555008e-02          1.248459e-01  7.624078e+00
+            yan_gt28           mean_daily_area_km2       44                2.084617e+06         1.790361e+06          2.385750e+06 -3.916000e+08
+            yan_gt28 area_time_weighted_mean_sst_c       44                1.066755e-01         8.536340e-02          1.246516e-01  7.720719e+00
+
+SCIENTIFIC INTERPRETATION RULE
+A fixed geographical window is a valid historical/regional framework,
+but threshold-exceeding water within that window need not be connected
+to the principal western Pacific warm body. The LCC provides an explicit
+topological criterion. Results should be described as a methodological
+extension/complement, not as evidence that earlier work was invalid.
+
+DIRECT LCC VS YAN-STYLE COMPARISON, 1982-1991
+Mean LCC-minus-Yan area: 6.279251 x10^6 km2
+Mean LCC-minus-Yan SST: -0.017562 degC
+Mean centroid separation: 658.244 km
+Mean LCC fraction outside Yan box: 22.301%
+Mean Yan warm-area fraction outside LCC: 2.988%
+Mean area Jaccard: 0.754214
+
+DIRECT LCC VS YAN-STYLE COMPARISON, 1982-2025
+Mean LCC-minus-Yan area: 8.679082 x10^6 km2
+Mean LCC-minus-Yan SST: -0.051331 degC
+Mean centroid separation: 673.973 km
+Mean LCC fraction outside Yan box: 24.268%
+Mean Yan warm-area fraction outside LCC: 1.598%
+Mean area Jaccard: 0.744780

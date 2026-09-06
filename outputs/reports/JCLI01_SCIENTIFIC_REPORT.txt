@@ -1,0 +1,96 @@
+JCLI01 PWP-LCC SCIENTIFIC ANALYSIS
+Version: 1.0.1
+Generated: 2026-09-04T06:32:20.866066+00:00
+
+RECORD
+Dates: 1981-09-01 to 2026-07-29
+Rows: 49,209
+Thresholds: 28.0, 28.5, 29.0
+Connectivity: 8-neighbor with periodic-longitude seam union
+Component ranking: exact spherical area
+No interpolation, smoothing, morphology, or component filtering.
+
+TREND STATISTICS
+ threshold_c                          metric  n_years         mean  theil_sen_slope_per_decade  ci95_low_per_decade  ci95_high_per_decade     intercept  effective_sample_size_residual  effective_degrees_of_freedom  hac_maxlags  hac_slope_per_decade  hac_se_per_decade  hac_ci95_low_per_decade  hac_ci95_high_per_decade  hac_t_effective_df  hac_p_effective_df  relative_slope_pct_per_decade
+        28.0                  total_area_km2       44 3.741864e+07                3.481570e+06         2.636865e+06          4.297903e+06 -6.597978e+08                       44.000000                     42.000000            3          3.424349e+06      381938.704446             2.653565e+06              4.195132e+06            8.965702        2.630390e-11                       9.304375
+        28.0      largest_component_area_km2       44 3.468271e+07                3.764479e+06         2.711765e+06          4.667532e+06 -7.198223e+08                       39.418460                     37.418460            3          3.727891e+06      441782.498091             2.833093e+06              4.622690e+06            8.438296        3.461463e-10                      10.854050
+        28.0              secondary_area_km2       44 2.735924e+06               -2.256007e+05        -3.834239e+05         -7.490016e+04  4.810581e+07                       24.834047                     22.834047            3         -3.035426e+05       69511.504425            -4.473960e+05             -1.596893e+05           -4.366797        2.288820e-04                      -8.245872
+        28.0 largest_component_area_fraction       44 9.231243e-01                1.308798e-02         9.151470e-03          1.802574e-02 -1.706749e+00                       34.736960                     32.736960            3          1.457957e-02           0.001924             1.066455e-02              1.849460e-02            7.578855        1.069508e-08                       1.417792
+        28.0             fragmentation_index       44 7.687570e-02               -1.308798e-02        -1.802574e-02         -9.151470e-03  2.706749e+00                       34.736960                     32.736960            3         -1.457957e-02           0.001924            -1.849460e-02             -1.066455e-02           -7.578855        1.069508e-08                     -17.024861
+        28.0                 component_count       44 4.060864e+01               -1.031528e+01        -1.146359e+01         -8.915525e+00  2.112451e+03                       15.024706                     13.024706            3         -1.029119e+01           0.726130            -1.185959e+01             -8.722779e+00          -14.172645        2.708772e-09                     -25.401701
+        28.5                  total_area_km2       44 2.793275e+07                3.725485e+06         2.899425e+06          4.397980e+06 -7.188422e+08                       39.272049                     37.272049            3          3.684965e+06      373058.627309             2.929263e+06              4.440667e+06            9.877710        5.920648e-12                      13.337340
+        28.5      largest_component_area_km2       44 2.482333e+07                4.089674e+06         3.399817e+06          4.801388e+06 -7.951434e+08                       40.482084                     38.482084            3          4.171860e+06      322783.605100             3.518687e+06              4.825032e+06           12.924634        1.409409e-15                      16.475123
+        28.5              secondary_area_km2       44 3.109413e+06               -4.316386e+05        -6.115686e+05         -2.663414e+05  8.930649e+07                       44.000000                     42.000000            3         -4.868949e+05       87948.898104            -6.643829e+05             -3.094068e+05           -5.536111        1.840629e-06                     -13.881677
+        28.5 largest_component_area_fraction       44 8.797738e-01                3.524982e-02         2.712720e-02          4.209225e-02 -6.164669e+00                       14.179674                     12.179674            3          3.596063e-02           0.003636             2.805105e-02              4.387020e-02            9.889721        3.563560e-07                       4.006692
+        28.5             fragmentation_index       44 1.202262e-01               -3.524982e-02        -4.209225e-02         -2.712720e-02  7.164669e+00                       14.179674                     12.179674            3         -3.596063e-02           0.003636            -4.387020e-02             -2.805105e-02           -9.889721        3.563560e-07                     -29.319590
+        28.5                 component_count       44 4.981692e+01               -1.207742e+01        -1.319139e+01         -1.100783e+01  2.474466e+03                       15.855467                     13.855467            3         -1.220405e+01           0.837218            -1.400147e+01             -1.040664e+01          -14.576913        8.529241e-10                     -24.243622
+        29.0                  total_area_km2       44 1.844199e+07                3.648876e+06         2.928224e+06          4.311131e+06 -7.132702e+08                       29.809211                     27.809211            3          3.644423e+06      343793.602189             2.939976e+06              4.348870e+06           10.600614        2.833831e-11                      19.785701
+        29.0      largest_component_area_km2       44 1.488541e+07                4.461439e+06         3.890371e+06          5.047952e+06 -8.798088e+08                       31.423613                     29.423613            3          4.455215e+06      288026.318932             3.866503e+06              5.043927e+06           15.468084        1.137654e-15                      29.971880
+        29.0              secondary_area_km2       44 3.556572e+06               -7.258638e+05        -9.586066e+05         -5.320419e+05  1.486783e+08                       44.000000                     42.000000            3         -8.107920e+05       83290.574218            -9.788791e+05             -6.427048e+05           -9.734498        2.489924e-12                     -20.409086
+        29.0 largest_component_area_fraction       44 7.710048e-01                9.009547e-02         7.496043e-02          1.043466e-01 -1.723882e+01                       44.000000                     42.000000            3          9.302228e-02           0.005185             8.255915e-02              1.034854e-01           17.941728        2.633622e-21                      11.685463
+        29.0             fragmentation_index       44 2.289952e-01               -9.009547e-02        -1.043466e-01         -7.496043e-02  1.823882e+01                       44.000000                     42.000000            3         -9.302228e-02           0.005185            -1.034854e-01             -8.255915e-02          -17.941728        2.633622e-21                     -39.343821
+        29.0                 component_count       44 6.046625e+01               -1.404795e+01        -1.595515e+01         -1.238508e+01  2.881448e+03                       13.552754                     11.552754            3         -1.431660e+01           1.224412            -1.699587e+01             -1.163734e+01          -11.692631        9.414484e-08                     -23.232706
+
+STL SUMMARY
+ threshold_c                 metric         mean  theil_sen_slope_per_decade  ci95_low_per_decade  ci95_high_per_decade  remainder_variance  trend_variance  seasonal_variance
+        28.0 seasonal_amplitude_km2 1.227680e+07               959734.823439        656358.990015          1.212019e+06        1.277351e+13             NaN                NaN
+        28.0 relative_amplitude_pct 3.593603e+01                   -1.347602            -2.466938         -3.674252e-01        1.277351e+13             NaN                NaN
+        28.0     component_variance          NaN                         NaN                  NaN                   NaN        1.277351e+13    3.126769e+13       1.420559e+13
+        28.5 seasonal_amplitude_km2 1.056182e+07               231905.807265        -73704.456221          5.820279e+05        1.149738e+13             NaN                NaN
+        28.5 relative_amplitude_pct 4.499147e+01                   -6.949397            -8.575527         -5.210575e+00        1.149738e+13             NaN                NaN
+        28.5     component_variance          NaN                         NaN                  NaN                   NaN        1.149738e+13    3.114440e+13       8.967563e+12
+        29.0 seasonal_amplitude_km2 8.247467e+06               653374.075651        279492.869025          9.615356e+05        1.096836e+13             NaN                NaN
+        29.0 relative_amplitude_pct 6.415111e+01                  -13.599951           -17.265936         -1.002809e+01        1.096836e+13             NaN                NaN
+        29.0     component_variance          NaN                         NaN                  NaN                   NaN        1.096836e+13    3.680778e+13       5.008654e+12
+
+WELCH SUMMARY
+ threshold_c  n_days     lag1  welch_segment_days  overlap_days  effective_welch_dof  dominant_period_days  detrended_variance_km4
+        28.0   16403 0.973077                2920          1460            19.047619                 365.0            3.904071e+13
+        28.5   16403 0.955498                2920          1460            19.047619                 365.0            2.740850e+13
+        29.0   16403 0.944525                2920          1460            19.047619                1460.0            2.043010e+13
+
+WELCH BAND VARIANCE
+ threshold_c              band  minimum_period_days  maximum_period_days  integrated_variance_km4  fraction_of_detrended_variance_pct
+        28.0     annual_strict                336.0                378.0             7.214213e+12                           18.478694
+        28.0    quasi_biennial                550.0               1096.0             4.198276e+12                           10.753585
+        28.0 interannual_broad                805.0               2922.0             1.149214e+13                           29.436301
+        28.5     annual_strict                336.0                378.0             3.971208e+12                           14.488968
+        28.5    quasi_biennial                550.0               1096.0             2.399528e+12                            8.754686
+        28.5 interannual_broad                805.0               2922.0             6.441202e+12                           23.500749
+        29.0     annual_strict                336.0                378.0             1.626172e+12                            7.959689
+        29.0    quasi_biennial                550.0               1096.0             2.019552e+12                            9.885178
+        29.0 interannual_broad                805.0               2922.0             4.284897e+12                           20.973453
+
+WAVELET BAND DIAGNOSTICS
+ threshold_c              band  minimum_period_days  maximum_period_days  valid_coefficients  valid_fraction_pct  mean_normalized_power_inside_coi  significant_fraction_inside_coi_pct
+        28.0     annual_strict                336.0                378.0               30816           93.934036                        176.231683                            45.911215
+        28.0    quasi_biennial                550.0               1096.0              171034           86.891626                         52.594016                             4.709005
+        28.0 interannual_broad                805.0               2922.0              261762           72.537174                        156.999501                            32.674720
+        28.5     annual_strict                336.0                378.0               30816           93.934036                        140.425651                            47.089174
+        28.5    quasi_biennial                550.0               1096.0              171034           86.891626                         45.155123                             7.092157
+        28.5 interannual_broad                805.0               2922.0              261762           72.537174                        124.227170                            37.546321
+        29.0     annual_strict                336.0                378.0               30816           93.934036                         80.647067                            36.026739
+        29.0    quasi_biennial                550.0               1096.0              171034           86.891626                         49.162776                            11.030555
+        29.0 interannual_broad                805.0               2922.0              261762           72.537174                        113.128008                            47.479390
+
+OCCURRENCE/PERSISTENCE
+ threshold_c  n_common_days  valid_grid_cells  area_weighted_mean_occurrence_fraction  grid_cells_occurrence_ge_0p10  grid_cells_occurrence_ge_0p50  grid_cells_occurrence_ge_0p90  median_longest_run_days_positive_cells  p95_longest_run_days_positive_cells  maximum_longest_run_days
+        28.0          16403            312342                                0.183865                          87529                          43210                          11769                                   188.0                               2937.0                     10225
+        28.5          16403            312342                                0.131885                          65986                          28266                           3848                                   125.0                               1542.0                      5731
+        29.0          16403            312342                                0.079332                          52640                          11324                              0                                    80.0                                713.0                      2708
+
+GENERATED FILES
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\tables\jcli_pwp_lcc\jcli_pwp_lcc_daily_diagnostics.csv
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\tables\jcli_pwp_lcc\JCLI_pwp_lcc_annual_summary.csv
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\tables\jcli_pwp_lcc\JCLI_pwp_lcc_trend_statistics.csv
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\tables\jcli_pwp_lcc\JCLI_pwp_lcc_monthly_climatology.csv
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\tables\jcli_pwp_lcc\JCLI_pwp_lcc_stl_daily.csv
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\tables\jcli_pwp_lcc\JCLI_pwp_lcc_stl_seasonal_amplitude_summary.csv
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\tables\jcli_pwp_lcc\JCLI_pwp_lcc_welch_summary.csv
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\tables\jcli_pwp_lcc\JCLI_pwp_lcc_welch_band_variance.csv
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\tables\jcli_pwp_lcc\JCLI_pwp_lcc_wavelet_band_variance.csv
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\cache\jcli_pwp_lcc\JCLI_pwp_lcc_welch_products.npz
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\cache\jcli_pwp_lcc\JCLI_pwp_lcc_wavelet_products.npz
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\data\processed\jcli_pwp_lcc\JCLI_pwp_lcc_occurrence_persistence.npz
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\tables\jcli_pwp_lcc\JCLI_pwp_lcc_occurrence_persistence_summary.csv
+C:\Users\fabio\Documents\Data_analysis\timeseries\ENSO_INDICES\wavelets\pwp_mascara\outputs\JCLI\cache\jcli_pwp_lcc\JCLI_pwp_lcc_map_snapshots.npz

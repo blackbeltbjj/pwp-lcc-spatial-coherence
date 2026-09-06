@@ -1,0 +1,8 @@
+﻿data
+data\derived
+data\masks
+documentation
+outputs
+outputs\figures
+src
+validation

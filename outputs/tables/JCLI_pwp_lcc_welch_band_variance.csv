@@ -1,0 +1,10 @@
+threshold_c,band,minimum_period_days,maximum_period_days,integrated_variance_km4,fraction_of_detrended_variance_pct
+28,annual_strict,336,378,7.214212847e+12,18.47869363
+28,quasi_biennial,550,1096,4.198275583e+12,10.75358461
+28,interannual_broad,805,2922,1.149214053e+13,29.43630143
+28.5,annual_strict,336,378,3.971208464e+12,14.48896813
+28.5,quasi_biennial,550,1096,2.399527803e+12,8.754685679
+28.5,interannual_broad,805,2922,6.441202281e+12,23.50074931
+29,annual_strict,336,378,1.626172307e+12,7.959688878
+29,quasi_biennial,550,1096,2.019551714e+12,9.88517837
+29,interannual_broad,805,2922,4.284897219e+12,20.97345318

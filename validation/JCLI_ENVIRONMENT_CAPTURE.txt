@@ -1,0 +1,10 @@
+Captured: 2026-09-06T18:41:31.6953705+12:00
+Computer: SHHMUSIC1
+Python command: python
+Python version: Python 3.10.8
+
+Executable:
+C:\Users\fabio\AppData\Local\Programs\Python\Python310\python.exe
+
+Platform:
+Windows-10-10.0.26200-SP0

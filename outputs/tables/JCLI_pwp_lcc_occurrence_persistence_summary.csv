@@ -1,0 +1,4 @@
+threshold_c,n_common_days,valid_grid_cells,area_weighted_mean_occurrence_fraction,grid_cells_occurrence_ge_0p10,grid_cells_occurrence_ge_0p50,grid_cells_occurrence_ge_0p90,median_longest_run_days_positive_cells,p95_longest_run_days_positive_cells,maximum_longest_run_days
+28,16403,312342,0.1838645959,87529,43210,11769,188,2937,10225
+28.5,16403,312342,0.1318848295,65986,28266,3848,125,1542,5731
+29,16403,312342,0.07933227163,52640,11324,0,80,713,2708
