@@ -4,10 +4,17 @@ JCLI RELEASE AUDIT REPORT
 Article: Expansion and Increasing Spatial Coherence of the Largest Connected Pacific Warm Pool, 1981-2026
 Target journal: Journal of Climate
 Author: Fabio Vieira Machado
-Audit date: 2026-09-06T18:54:49+12:00
+Audit date: 2026-09-06T19:30:31+12:00
 
 Primary chain: JCLI01 v1.1.0 -> JCLI02 v1.1.0
 Historical-method extension: JCLI01 v1.2.1 -> Yan (1992) comparison
+
+Scientific freeze commit: fcea45285ac7e6d83a04f8fa1299af9e80451593
+v1.0.0 still points to scientific freeze commit: YES
+
+Metadata-only correction: CITATION.cff version field changed from "release-candidate" to "1.0.0"; no scientific code, data, results, figures, or analytical provenance changed.
+CITATION.cff pre-correction SHA-256: a4aef00d6be787c4ceb3edd2e517886885b6e48468ffb30b679cf5f4829cfeee
+CITATION.cff post-correction SHA-256: 5fa824a039cfd6e46d0e373b8b53e7436e033c49ebe3844e0631abb9ec5431c0
 
 Yan v1.2.0 duplicate physically included: NO
 Verified byte-identical Yan product retained as v1.2.1: YES
@@ -18,8 +25,8 @@ Spatial inputs inventoried: 3
 Input-manifest rows: 49
 Active Python: Python 3.10.8
 
-GitHub release created: NO
-v1.0.0 tag created: NO
+GitHub v1.0.0 release exists: YES
+v1.0.0 tag exists: YES
 Zenodo DOI minted: NO
 
 JCLI_RELEASE_AUDIT = PASS
