@@ -95,9 +95,13 @@ Input provenance, environment capture, integrity records, and release-audit mate
 
 ## Archival DOI
 
-The GitHub v1.0.0 release is public.
+**Pacific Warm Pool Largest Connected Component - Journal of Climate reproducibility package v1.0.0**
 
-A Zenodo DOI will be added here only after the archive identifier has been independently verified against this released software version.
+- Version DOI: https://doi.org/10.5281/zenodo.22499662
+- Concept DOI: https://doi.org/10.5281/zenodo.22499661
+- GitHub release: https://github.com/blackbeltbjj/pwp-lcc-spatial-coherence/releases/tag/v1.0.0
+
+The version DOI identifies the frozen v1.0.0 reproducibility package associated with the submitted Journal of Climate manuscript. The concept DOI identifies the software record across versions.
 
 ## Author
 
